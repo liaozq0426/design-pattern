@@ -5,7 +5,7 @@ import net.sf.cglib.proxy.Enhancer;
 public class Client {
 	
 	public static void main(String[] args) {
-		// 真实对象
+		// 真实对象 
 		RealStar realStar = new RealStar();
 		
 		Enhancer enhancer = new Enhancer();
